@@ -1,6 +1,6 @@
 # The Filter and Fire (F&F) Neuron Model
 This repo contains the code behind the work  
-[Multiple Synaptic Contacts combined with Dendritic Filtering enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons](https://www.biorxiv.org/content/10.1101/2022.01.28.478132v1)
+[Multiple Synaptic Contacts combined with Dendritic Filtering enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons](https://www.biorxiv.org/content/10.1101/2022.01.28.478132v2)
 
 ## Multiple Synaptic Contacts combined with Dendritic Filtering <br > enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons  
 David Beniaguev, Sapir Shapira, Idan Segev, Michael London
@@ -10,7 +10,7 @@ David Beniaguev, Sapir Shapira, Idan Segev, Michael London
 <img width="1161" alt="Overview_of_F F_neuron_model" src="https://user-images.githubusercontent.com/11506338/151635189-1e6bfe6f-78a5-4c7e-92a4-0599601697c3.PNG">
 
 ## Resources
-Open Access version of Paper: [biorxiv.org/content/10.1101/2022.01.28.478132v1](https://www.biorxiv.org/content/10.1101/2022.01.28.478132v1)  
+Open Access version of Paper: [biorxiv.org/content/10.1101/2022.01.28.478132v2](https://www.biorxiv.org/content/10.1101/2022.01.28.478132v2)  
 Data required for full replication of all results: [kaggle.com/selfishgene/fiter-and-fire-paper](https://www.kaggle.com/selfishgene/fiter-and-fire-paper)  
 Introductory Notebook (Figure 1 in manuscript): [kaggle.com/selfishgene/f-f-introduction-figure-fig-1](https://www.kaggle.com/selfishgene/f-f-introduction-figure-fig-1)  
 Notebook with replication of main results 1: [kaggle.com/selfishgene/f-f-capacity-figure-fig-2](https://www.kaggle.com/selfishgene/f-f-capacity-figure-fig-2)  

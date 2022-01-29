@@ -1,7 +1,8 @@
 # The Filter and Fire (F&F) Neuron Model
-This repo contains the code behind the work "[Multiple Synaptic Contacts combined with Dendritic Filtering enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons](https://www.biorxiv.org/content/10.1101/2022.01.28.478132v1)"  
+This repo contains the code behind the work  
+[Multiple Synaptic Contacts combined with Dendritic Filtering enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons](https://www.biorxiv.org/content/10.1101/2022.01.28.478132v1)
 
-## Multiple Synaptic Contacts combined with Dendritic Filtering enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons  
+## Multiple Synaptic Contacts combined with Dendritic Filtering <br > enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons  
 David Beniaguev, Sapir Shapira, Idan Segev, Michael London
 
 **Abstract**: *A cortical neuron typically makes multiple synaptic contacts on the dendrites of a post-synaptic target neuron. The functional implications of this apparent redundancy are unclear. The dendritic location of a synaptic contact affects the time-course of the somatic post-synaptic potential (PSP) due to dendritic cable filtering. Consequently, a single pre-synaptic axonal spike results with a PSP composed of multiple temporal profiles. Here, we developed a "filter-and-fire" (F&F) neuron model that captures these features and show that the memory capacity of this neuron is threefold larger than that of a leaky integrate-and-fire (I&F) neuron, when trained to emit precisely timed output spikes for specific input patterns. Furthermore, the F&F neuron can learn to recognize spatio-temporal input patterns, e.g., MNIST digits, where the I&F model completely fails. Multiple synaptic contacts between pairs of cortical neurons are therefore an important feature rather than a bug and can serve to reduce axonal wiring requirements.*
@@ -10,8 +11,8 @@ David Beniaguev, Sapir Shapira, Idan Segev, Michael London
 
 ## Resources
 Open Access version of Paper: [biorxiv.org/content/10.1101/2022.01.28.478132v1](https://www.biorxiv.org/content/10.1101/2022.01.28.478132v1)  
-Data required for full replication: [kaggle.com/selfishgene/fiter-and-fire-paper](https://www.kaggle.com/selfishgene/fiter-and-fire-paper)  
-Introductory Notebook: [kaggle.com/selfishgene/f-f-introduction-figure-fig-1](https://www.kaggle.com/selfishgene/f-f-introduction-figure-fig-1)  
+Data required for full replication of all results: [kaggle.com/selfishgene/fiter-and-fire-paper](https://www.kaggle.com/selfishgene/fiter-and-fire-paper)  
+Introductory Notebook (Figure 1 in manuscript): [kaggle.com/selfishgene/f-f-introduction-figure-fig-1](https://www.kaggle.com/selfishgene/f-f-introduction-figure-fig-1)  
 Notebook with replication of main results 1: [kaggle.com/selfishgene/f-f-capacity-figure-fig-2](https://www.kaggle.com/selfishgene/f-f-capacity-figure-fig-2)  
 Notebook with replication of main results 2: [kaggle.com/selfishgene/f-f-mnist-figure-fig-3](https://www.kaggle.com/selfishgene/f-f-mnist-figure-fig-3)  
 Notebooks for full replication of all figures: [kaggle.com/selfishgene/fiter-and-fire-paper/code](https://www.kaggle.com/selfishgene/fiter-and-fire-paper/code)  
@@ -41,16 +42,16 @@ Notebooks for full replication of all figures: [kaggle.com/selfishgene/fiter-and
 ## PSPs of a realistic detailed biophysical Layer 5 Cortical Pyramidal Neuron
 <img width="1040" alt="L5PC_morphology_PSPs" src="https://user-images.githubusercontent.com/11506338/151635200-a8288feb-0365-4c86-91ad-2d87dcc3e7b8.PNG">
 
-- Visit [this link](https://www.kaggle.com/selfishgene/f-f-l5pc-psps-fig-s2) to replicate Figure S2 in the manuscript
-- All necessary simulation data are in the file `sim_results_excitatory.p` in [the dataset](https://www.kaggle.com/selfishgene/fiter-and-fire-paper) on kaggle 
+- Visit [this link](https://www.kaggle.com/selfishgene/f-f-l5pc-psps-fig-s2) to replicate Supplementary Figure S2 in the manuscript
+- All necessary simulation data for this figure are in the file `sim_results_excitatory.p` in [the dataset](https://www.kaggle.com/selfishgene/fiter-and-fire-paper) on kaggle 
 
 
 ## Acknowledgements
 We thank all lab members of the Segev and London Labs for many fruitful discussions and valuable feedback regarding this work.
-In particular we would like to thank [Sapir Shapira](https://github.com/ssapir) that skillfully collected all data and created Figure S2 in the paper.
+In particular we would like to thank [Sapir Shapira](https://github.com/ssapir) that skillfully collected all data and created Supplementary Figure S2 in the paper.
 
 
-If you use this code or dataset, please cite the following two works:  
+If you use this code or dataset, please cite the following work:  
 
 1. David Beniaguev, Sapir Shapira, Idan Segev and Michael London. "Multiple Synaptic Contacts combined with Dendritic Filtering enhance Spatio-Temporal Pattern Recognition capabilities of Single Neurons
 ." bioRxiv 2022.01.28.478132; doi: https://doi.org/10.1101/2022.01.28.478132

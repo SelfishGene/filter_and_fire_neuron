@@ -25,7 +25,6 @@ v_threshold = -55
 current_to_voltage_mult_factor = 4
 refreactory_time_constant = 25
 
-save_figures = True
 save_figures = False
 all_file_endings_to_use = ['.png', '.pdf', '.svg']
 
